@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mandelacomp3.mypnp.activity.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/nameText"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:id="@+id/dateText"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cellphone number"
+        android:id="@+id/cellphonenumberText"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:id="@+id/addressText"/>
+
+
+    <ImageButton
+        android:id="@+id/placeorderBTN"
+        android:layout_width="315dp"
+        android:layout_height="166dp"
+        app:srcCompat="@drawable/order_now_arrow" />
+
+    <Button
+        android:id="@+id/logoutBTN"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+
+
+
+
+</LinearLayout>
